@@ -1,4 +1,5 @@
-// Notes: The front end would make a request to the back
+// Notes: If the front end makes a request for AdGroup information, the router file would route to here. Depending on the Request type (get, post, put, delete), the subsequent functions would then be called.
+
 import AbstractHttpRequestController from 'lambda-framework/api/controllers/AbstractHttpRequestController';
 import httpStatusCodes from 'http-status-codes';
 import IAdGroupGetRequest from './request/adGroups/IAdGroupGetRequest';
